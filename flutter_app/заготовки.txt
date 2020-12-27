@@ -1,0 +1,32 @@
+TeXViewDocument('',
+    style: TeXViewStyle(
+    	contentColor: Colors.black,
+    	textAlign: TeXViewTextAlign.Left,
+    	margin: TeXViewMargin.all(15),
+    	  fontStyle:
+            TeXViewFontStyle(
+              fontSize: 18,
+            )
+    )
+),
+
+
+
+
+
+
+
+TeXViewDocument(r"""$$\vec{s} ={\vec{u}t} $$ """,
+    style: TeXViewStyle(
+        contentColor: Colors.black,
+        textAlign: TeXViewTextAlign.Center
+    )
+),
+
+
+    'title' : '',
+    'topictext':'',
+    'formula':r"""$$$$""",
+    'formulaexp':'',
+
+
